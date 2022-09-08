@@ -1,0 +1,32 @@
+---
+title: "template"
+author: 
+  - name: "Robin Doe"
+    url: "http://www.example.com"
+    affiliations:
+      - University of State
+date: 2025-9-1
+license: "CC-BY-SA 4.0"
+format: 
+  html: default
+  pdf: default
+editor: visual
+knitr: 
+  opts_chunk: 
+    echo: false
+    message: false
+---
+
+This is intended to be a tutoral template for the [Linguistics Methods Hub](https://lingmethodshub.github.io/). You can fork and rename this repository, then proceed to delete and rename files as works best for your needs.
+
+## Writing `.md`, `.rmd` or `.qmd` files
+
+All markdown, rmarkdown and quarto files will be rendered (except for any named `README*`), and can be written in your preferred way.
+
+[rmd output](00_rmarkdown_template.rmd)
+
+## Jupyter
+
+## 
+
+[pdf](index.pdf)

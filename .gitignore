@@ -1,0 +1,12 @@
+.Rproj.user
+.Rproj
+.Rhistory
+
+.ipynb_checkpoints
+
+/.quarto/
+*.html
+*.pdf
+*_files
+_site
+/env/
