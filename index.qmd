@@ -13,7 +13,7 @@ format:
 editor: visual
 knitr: 
   opts_chunk: 
-    echo: false
+    echo: true
     message: false
 ---
 
@@ -38,3 +38,47 @@ You can write quarto documents exactly like rmarkdown files.
 You can also write tutorials in a jupyter notebook, and they will be rendered into the same output.
 
 [jupyter output](02_jupyter_output)
+
+## Header information
+
+### Author information
+
+The author yaml information for this page is
+
+``` yaml
+author: 
+  - name: "Robin Doe"
+    url: "http://www.example.com"
+    affiliations:
+      - University of State
+```
+
+The full author schema, from the [quarto docs](https://quarto.org/docs/journals/authors.html), is
+
+``` yaml
+author:
+  - id: string
+    number: number
+    name:
+      given: string
+      family: string
+      literal: string
+      dropping-particle: string
+      non-dropping-particle: string
+    url: string
+    email: string
+    fax: string
+    orcid: string
+    note: string
+    acknowledgements: string
+    attributes:
+      corresponding: boolean
+      equal-contributor: boolean
+      deceased: boolean
+    metadata: object
+    affiliations: 
+```
+
+### Format
+
+If you include both information for both `html` and `pdf` output formats, they will both be generated, allowing a standalone pdf for printing etc: [pdf output](index.pdf).
