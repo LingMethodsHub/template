@@ -25,6 +25,8 @@ All markdown, rmarkdown and quarto files will be rendered (except for any named 
 
 [rmd output](00_rmarkdown_template.rmd)
 
+## Writing qmd
+
 ## Jupyter
 
 ## 
