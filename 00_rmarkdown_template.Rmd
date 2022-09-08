@@ -16,7 +16,25 @@ knitr:
     message: false
 ---
 
+## R environment (`renv`)
+
+Using `renv` while writing your tutorial will ensure that when a LingMethodsHub maintainer renders your tutorial, all of the necessary packages will be installed. Even if you've already been working on the tutorial, you can start using `renv` like so:
+
+```{r}
+#| eval: false
+renv::init()
+renv::snapshot()
+```
+
+This will create an `renv/` directory, and an `renv.lock` file. You should add `renv.lock` to git.
+
+Once you've run through all of the code for your tutorial again, just run `renv::snapshot()` one more time before you push your final commit.
+
 ## Sample R Markdown Template
+
+```{r}
+renv::use(lockfile = "renv.lock")
+```
 
 ```{r}
 library(tidyverse)
