@@ -1,6 +1,6 @@
 # Template
 
-This is intended to be a tutoral template for the Linguistics Methods Hub. You can fork and rename this repository, then proceed to delete and rename files as works best for your needs. There is some useful information included in each sample document.
+This is intended to be a tutorial template for the Linguistics Methods Hub. You can fork and rename this repository, then proceed to delete and rename files as works best for your needs. There is some useful information included in each sample document.
 
 ## Display order
 

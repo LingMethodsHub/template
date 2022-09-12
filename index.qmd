@@ -19,6 +19,8 @@ knitr:
 
 This is intended to be a tutoral template for the [Linguistics Methods Hub](https://lingmethodshub.github.io/). You can fork and rename this repository, then proceed to delete and rename files as works best for your needs
 
+Template repository url: <https://github.com/LingMethodsHub/template>
+
 ## Authoring
 
 ### Writing `.md`, `.rmd` files
