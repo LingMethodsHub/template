@@ -39,7 +39,7 @@ You can write quarto documents exactly like rmarkdown files.
 
 You can also write tutorials in a jupyter notebook, and they will be rendered into the same output.
 
-[jupyter output](02_jupyter_output)
+[jupyter output](02_jupyter.ipynb)
 
 ## Header information
 
